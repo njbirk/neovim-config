@@ -7,7 +7,7 @@ After using many other neovim distributions and configs, and always wanting more
 
 ## Requirements
 
-- [Neovim](https://github.com/neovim/neovim) (V0.9 or later)
+- [Neovim](https://github.com/neovim/neovim) (v0.9 or later)
 - A truecolor terminal
 
 ## Installation
