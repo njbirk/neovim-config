@@ -1,5 +1,8 @@
 local opt = vim.opt
 
+-- remove tildas
+vim.opt.fillchars = {eob = " "}
+
 -- line numbers
 opt.relativenumber = true
 opt.number = true
