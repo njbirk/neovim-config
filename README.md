@@ -16,11 +16,13 @@ After using many other neovim distributions and configs, and always wanting more
 
 ## Plugins
 
-## Plugin Management
+### Plugin Management
+
+- [https://github.com/folke/lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ### Colorscheme
 
-- [https://github.com/folke/lazy.nvim](https://github.com/folke/lazy.nvim)
+- [https://github.com/bluz71/vim-nightfly-colors](https://github.com/bluz71/vim-nightfly-colors)
 
 ### File Search/Fuzzy Finding
 
@@ -37,3 +39,4 @@ After using many other neovim distributions and configs, and always wanting more
 ### Git Integration
 
 - [https://github.com/kdheepak/lazygit.nvim](https://github.com/kdheepak/lazygit.nvim)
+- [https://github.com/lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
