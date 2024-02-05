@@ -16,7 +16,24 @@ After using many other neovim distributions and configs, and always wanting more
 
 ## Plugins
 
-- [lazy.nvim](https://github.com/folke/lazy.nvim) for plugin management
-- [vim-nightfly-colors](https://github.com/bluz71/vim-nightfly-colors) color scheme
-- [telescope](https://github.com/nvim-telescope/telescope.nvim) for fuzzy finding/file search
-- [treesitter](https://github.com/nvim-treesitter/nvim-treesitter?tab=readme-ov-file#quickstart) for syntax highlighting
+## Plugin Management
+
+### Colorscheme
+
+- [https://github.com/folke/lazy.nvim](https://github.com/folke/lazy.nvim)
+
+### File Search/Fuzzy Finding
+
+- [https://github.com/nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+
+### Treesitter
+
+- [https://github.com/nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+
+### Status Line
+
+- [https://github.com/nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+
+### Git Integration
+
+- [https://github.com/kdheepak/lazygit.nvim](https://github.com/kdheepak/lazygit.nvim)
