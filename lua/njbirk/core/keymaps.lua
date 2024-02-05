@@ -9,7 +9,7 @@ keymap.set("n", "<leader>pv", vim.cmd.Ex)
 keymap.set("i", "jj", "<ESC>")
 keymap.set("i", "jk", "<ESC>")
 
---plugins, opts- auto-centering for various things
+-- plugins, opts- auto-centering for various things
 keymap.set("n", "<C-d>", "<C-d>zz")
 keymap.set("n", "<C-u>", "<C-u>zz")
 

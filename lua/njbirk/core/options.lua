@@ -7,6 +7,9 @@ vim.opt.fillchars = {eob = " "}
 opt.relativenumber = true
 opt.number = true
 
+-- add column for gitsigns
+vim.cmd('set signcolumn=yes')
+
 -- tabs & indentation
 opt.tabstop = 2
 opt.shiftwidth = 2

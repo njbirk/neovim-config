@@ -40,3 +40,10 @@ After using many other neovim distributions and configs, and always wanting more
 
 - [https://github.com/kdheepak/lazygit.nvim](https://github.com/kdheepak/lazygit.nvim)
 - [https://github.com/lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
+
+### LSP and Autocompletion
+
+- [https://github.com/williamboman/mason.nvim](https://github.com/williamboman/mason.nvim)
+- [https://github.com/williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
+- [https://github.com/neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+- [https://github.com/nvim-telescope/telescope-ui-select.nvim](https://github.com/nvim-telescope/telescope-ui-select.nvim)
