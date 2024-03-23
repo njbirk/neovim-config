@@ -25,3 +25,10 @@ opt.cursorline = true
 -- comments
 vim.cmd('autocmd BufEnter * set formatoptions-=cro')
 vim.cmd('autocmd BufEnter * setlocal formatoptions-=cro')
+
+-- use system clipboard
+opt.clipboard = "unnamedplus"
+
+-- window splitting preferences
+opt.splitright = true
+opt.splitbelow = true

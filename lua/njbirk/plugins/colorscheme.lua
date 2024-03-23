@@ -1,9 +1,11 @@
-return { 
-	"bluz71/vim-nightfly-colors", 
-	name = "nightfly", 
-	lazy = false, 
-	priority = 1000,
+return
+{
+	"catppuccin/nvim", name = "catppuccin", priority = 1000,
 	config = function()
-		vim.cmd([[colorscheme nightfly]])
-	end,
+		require("catppuccin").setup({
+    flavour = "macchiato", -- latte, frappe, macchiato, mocha
+		})
+		-- setup must be called before loading
+		vim.cmd.colorscheme "catppuccin"
+	end
 }
