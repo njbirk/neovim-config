@@ -60,6 +60,7 @@ Happy coding!
 - [https://github.com/saadparwaiz1/cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
 - [https://github.com/rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
 - [https://github.com/hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+- [https://github.com/cohama/lexima.vim](https://github.com/cohama/lexima.vim)
 
 ### Formatting
 

@@ -1,5 +1,8 @@
 return {
 	{
+		{ "cohama/lexima.vim" },
+	},
+	{
 		"hrsh7th/cmp-nvim-lsp",
 		config = function()
 			require("cmp").setup({
