@@ -31,4 +31,21 @@ LSP (Language Server Protocol) is how editors receive language-specific informat
 
 ## Completion
 
+When a completion window appears:
+- "C-j": select next option
+- "C-k": select previous option
+- "RETURN": confirm selection
+
+When using a snippet:
+- "C-j": jump to next highlighted portion
+- "C-k": jump to previous highlighted portion
+
+## Formatting
+
+- "\<leader\>gf": format current file
+
+**NOTE:** For this to work, there must be a formatter installed for the language being formatted. ([Quick Guide](./language-setup.md))
+
+## Git Integration
+- "\<leader\>gg": LazyGit popup window (if lazygit is installed)
 

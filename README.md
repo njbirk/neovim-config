@@ -1,17 +1,19 @@
 
-# My NeoVim Config
+# My Neovim Config
 
-Welcome to my NeoVim configuration! 
+Welcome to my Neovim configuration! 
 
-This repository houses my own custom setup for Neovim, tailored to my development workflow and preferences. I wanted a lightweight, portable config that still contained many of the 
-features present in any modern IDE, including:
+This repository houses my own custom setup for Neovim, tailored to my development workflow and preferences. I wanted a lightweight, portable config that still contained many of the features present in any modern IDE, including:
 - Fuzzy finding for easily locating files
 - LSP integration
 - Autocompletion
 - Auto formatting and linting
 - Git integration
 - File tree with add/rename/move/delete operations
-- And more!
+
+**Upcoming Features:**
+- GitHub Copilot integration
+- Autotags for HTML
 
 Feel free to use for any text editing, or as inspiration for a config of your own!
 
@@ -35,21 +37,22 @@ Happy coding!
 
 First, ensure all requirements have been installed.
 
-### For MacOS/Linux/WSL
+### For macOS/Linux/WSL
 ```sh
 git clone https://github.com/njbirk/neovim-config.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 This will place the config in the directory `~/.config/nvim`.
 
-To use, run the command `nvim` in any directory to open that directory in NeoVim!
+To use, run the command `nvim` in any directory to open that directory in Neovim!
 
 ## Getting Started
 
 - Vim Basics
-    - A [helpful guide](https://www.freecodecamp.org/news/vim-beginners-guide/) from freeCodeCamp
-    - A series of [amazing videos](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R) from [ThePrimagen](https://github.com/ThePrimeagen) (This is how I learned vim)
-- A list of [all keyboard shortcuts and mappings](docs/keymaps.md) including in this config
+    - [A helpful guide](https://www.freecodecamp.org/news/vim-beginners-guide/) from freeCodeCamp
+    - [A series of amazing videos](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R) from [ThePrimagen](https://github.com/ThePrimeagen) (This is how I learned vim)
+- [A list of all keyboard shortcuts and mappings](docs/keymaps.md) included in this config
+- To add LSP support for programming languages, which enables features like autocompletion, code actions, error checking, and more, follow [this guide](docs/language-setup.md)
 
 ## Plugins
 
@@ -57,7 +60,7 @@ To use, run the command `nvim` in any directory to open that directory in NeoVim
 
 - [https://github.com/folke/lazy.nvim](https://github.com/folke/lazy.nvim)
 
-### Colorscheme
+### Color scheme
 
 - [https://github.com/catppuccin/nvim](https://github.com/catppuccin/nvim)
 
