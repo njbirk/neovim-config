@@ -32,3 +32,6 @@ opt.clipboard = "unnamedplus"
 -- window splitting preferences
 opt.splitright = true
 opt.splitbelow = true
+
+-- max completion window size
+vim.opt.pumheight = 7
