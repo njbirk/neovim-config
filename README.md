@@ -3,7 +3,17 @@
 
 Welcome to my NeoVim configuration! 
 
-This repository houses my own custom setup for Neovim, tailored to my development workflow and preferences. Feel free to use for any text editing, or as inspiration for a config of your own!
+This repository houses my own custom setup for Neovim, tailored to my development workflow and preferences. I wanted a lightweight, portable config that still contained many of the 
+features present in any modern IDE, including:
+- Fuzzy finding for easily locating files
+- LSP integration
+- Autocompletion
+- Auto formatting and linting
+- Git integration
+- File tree with add/rename/move/delete operations
+- And more!
+
+Feel free to use for any text editing, or as inspiration for a config of your own!
 
 ### Important Notes:
 
@@ -19,8 +29,27 @@ Happy coding!
 - A truecolor terminal such as iTerm2 or alacritty
 - git (v2.19.0 or later)
 - A [nerd font](https://www.nerdfonts.com)
+- [LazyGit](https://github.com/jesseduffield/lazygit) is not required but highly encouraged, as it is an incredible interface and my personal favorite way to use git
+
+## Installation
+
+First, ensure all requirements have been installed.
+
+### For MacOS/Linux/WSL
+```sh
+git clone https://github.com/njbirk/neovim-config.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+```
+
+This will place the config in the directory `~/.config/nvim`.
+
+To use, run the command `nvim` in any directory to open that directory in NeoVim!
 
 ## Getting Started
+
+- Vim Basics
+    - A [helpful guide](https://www.freecodecamp.org/news/vim-beginners-guide/) from freeCodeCamp
+    - A series of [amazing videos](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R) from [ThePrimagen](https://github.com/ThePrimeagen) (This is how I learned vim)
+- A list of [all keyboard shortcuts and mappings](docs/keymaps.md) including in this config
 
 ## Plugins
 
