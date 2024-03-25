@@ -8,7 +8,6 @@ return {
 	{
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
-			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 			require("mason-lspconfig").setup({
 				ensure_installed = { "lua_ls" },
 				automatic_installation = true,
@@ -16,7 +15,18 @@ return {
 			require("mason-lspconfig").setup_handlers({
 				function(server_name)
 					require("lspconfig")[server_name].setup({
-						capabilities = capabilities
+						on_attach = on_attach,
+						capabilities = require("cmp_nvim_lsp").default_capabilities()
+					})
+				end,
+				["clangd"] = function()
+					require("lspconfig").clangd.setup({
+						on_attach = on_attach,
+						capabilities = require("cmp_nvim_lsp").default_capabilities(),
+						cmd = {
+							"clangd",
+							"--offset-encoding=utf-16",
+						},
 					})
 				end,
 			})
