@@ -14,7 +14,7 @@ This will use Mason to install the languager server on your computer. To uninsta
 :LspUninstall <name of server>
 ```
 
-To determine the name of the language server for the language you are using, simply search '\<language name\> LSPs/language servers'. OR, for even easier installation, just run `:LspInstall` while editing a file and you will be prompted to select a server for that language (tab to select next option, enter to confirm).
+To determine the name of the language server for the language you are using, simply search '\<language name\> LSPs/language servers'. For example, my preferred language server for working in Python is `pyright`. OR, for even easier installation, just run `:LspInstall` while editing a file and you will be prompted to select a server for that language (tab to select next option, enter to confirm).
 
 **NOTE:** To quit/close the Mason window after installing/uninstalling a server, just press 'q'.
 

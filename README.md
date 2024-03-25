@@ -1,6 +1,25 @@
 
 # My Neovim Config
 
+<!--toc:start-->
+- [My Neovim Config](#my-neovim-config)
+    - [Important Notes:](#important-notes)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+    - [For macOS/Linux/WSL](#for-macoslinuxwsl)
+  - [Getting Started](#getting-started)
+  - [Plugins](#plugins)
+    - [Plugin Management](#plugin-management)
+    - [Color scheme](#color-scheme)
+    - [File Search/Fuzzy Finding](#file-searchfuzzy-finding)
+    - [Treesitter](#treesitter)
+    - [Status Line](#status-line)
+    - [Git Integration](#git-integration)
+    - [LSP and Autocompletion](#lsp-and-autocompletion)
+    - [Formatting](#formatting)
+    - [Comments](#comments)
+<!--toc:end-->
+
 Welcome to my Neovim configuration! 
 
 This repository houses my own custom setup for Neovim, tailored to my development workflow and preferences. I wanted a lightweight, portable config that still contained many of the features present in any modern IDE, including:
@@ -97,3 +116,7 @@ To use, run the command `nvim` in any directory to open that directory in Neovim
 ### Formatting
 
 - [https://github.com/nvimtools/none-ls.nvim](https://github.com/nvimtools/none-ls.nvim)
+
+### Comments
+
+- [https://github.com/numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim)

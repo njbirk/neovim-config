@@ -40,6 +40,10 @@ When using a snippet:
 - "C-j": jump to next highlighted portion
 - "C-k": jump to previous highlighted portion
 
+## Comments
+
+- "\<leader\>/": Comment out current line or currently highlighted code block
+
 ## Formatting
 
 - "\<leader\>gf": format current file
