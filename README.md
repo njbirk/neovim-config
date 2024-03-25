@@ -20,8 +20,6 @@
     - [Comments](#comments)
 <!--toc:end-->
 
-Welcome to my Neovim configuration! 
-
 This repository houses my own custom setup for Neovim, tailored to my development workflow and preferences. I wanted a lightweight, portable config that still contained many of the features present in any modern IDE, including:
 - Fuzzy finding for easily locating files
 - LSP integration

@@ -1,12 +1,12 @@
 return {
 	{
-		"williambowman/mason.nvim",
+		"williamboman/mason.nvim",
 		config = function()
 			require("mason").setup()
 		end,
 	},
 	{
-		"williambowman/mason-lspconfig.nvim",
+		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 			require("mason-lspconfig").setup({
