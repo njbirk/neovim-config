@@ -1,11 +1,12 @@
-return
-{
-	"catppuccin/nvim", name = "catppuccin", priority = 1000,
-	config = function()
-		require("catppuccin").setup({
-    flavour = "macchiato", -- latte, frappe, macchiato, mocha
-		})
-		-- setup must be called before loading
-		vim.cmd.colorscheme "catppuccin"
-	end
+return {
+	{
+		"rose-pine/neovim",
+		as = "rose-pine",
+		config = function()
+			require("rose-pine").setup({
+				variant = "moon",
+			})
+			vim.cmd("colorscheme rose-pine")
+		end,
+	},
 }

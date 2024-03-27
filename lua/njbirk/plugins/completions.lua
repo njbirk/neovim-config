@@ -1,5 +1,8 @@
 return {
 	{
+		"github/copilot.vim"
+	},
+	{
 		{ "cohama/lexima.vim" },
 	},
 	{

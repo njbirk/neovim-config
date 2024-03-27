@@ -24,12 +24,12 @@ This repository houses my own custom setup for Neovim, tailored to my developmen
 - Fuzzy finding for easily locating files
 - LSP integration
 - Autocompletion
+- Copilot integration
 - Auto formatting and linting
 - Git integration
 - File tree with add/rename/move/delete operations
 
 **Upcoming Features:**
-- GitHub Copilot integration
 - Autotags for HTML
 
 Feel free to use for any text editing, or as inspiration for a config of your own!
@@ -79,7 +79,7 @@ To use, run the command `nvim` in any directory to open that directory in Neovim
 
 ### Color scheme
 
-- [https://github.com/catppuccin/nvim](https://github.com/catppuccin/nvim)
+- [https://github.com/rose-pine/neovim](https://github.com/rose-pine/neovim)
 
 ### File Search/Fuzzy Finding
 
@@ -110,6 +110,7 @@ To use, run the command `nvim` in any directory to open that directory in Neovim
 - [https://github.com/rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
 - [https://github.com/hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
 - [https://github.com/cohama/lexima.vim](https://github.com/cohama/lexima.vim)
+- [https://github.com/github/copilot.vim](https://github.com/github/copilot.vim)
 
 ### Formatting
 
