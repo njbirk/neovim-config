@@ -33,5 +33,11 @@ opt.clipboard = "unnamedplus"
 opt.splitright = true
 opt.splitbelow = true
 
+-- some search settings
+opt.hlsearch = false
+opt.incsearch = true
+
+opt.termguicolors = true
+
 -- max completion window size
 vim.opt.pumheight = 7
