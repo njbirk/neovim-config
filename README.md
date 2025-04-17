@@ -119,3 +119,7 @@ To use, run the command `nvim` in any directory to open that directory in Neovim
 ### Comments
 
 - [https://github.com/numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim)
+
+### Other
+
+- [https://github.com/lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim): Python indendation lines
