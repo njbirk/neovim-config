@@ -19,10 +19,10 @@ keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- window switching with ctrl + direction "hjkl"
-keymap.set("n", "<C-h>", "<C-w>h", {noremap = true, silent = true})
-keymap.set("n", "<C-j>", "<C-w>j", {noremap = true, silent = true})
-keymap.set("n", "<C-k>", "<C-w>k", {noremap = true, silent = true})
-keymap.set("n", "<C-l>", "<C-w>l", {noremap = true, silent = true})
+keymap.set("n", "<C-h>", "<C-w>h", { noremap = true, silent = true })
+keymap.set("n", "<C-j>", "<C-w>j", { noremap = true, silent = true })
+keymap.set("n", "<C-k>", "<C-w>k", { noremap = true, silent = true })
+keymap.set("n", "<C-l>", "<C-w>l", { noremap = true, silent = true })
 
 -- Keep lines highlighted after indenting
 keymap.set("v", "<", "<gv")
