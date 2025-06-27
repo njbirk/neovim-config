@@ -4,9 +4,10 @@ return {
 		tag = "0.1.5",
 		dependencies = { "nvim-lua/plenary.nvim" },
 		config = function()
-			vim.keymap.set("n", "<leader>f", ":Telescope find_files theme=get_dropdown<CR>", {})
-			vim.keymap.set("n", "<leader>st", ":Telescope live_grep theme=get_dropdown<CR>", {})
-			vim.keymap.set("n", "<leader>sb", ":Telescope seach_buffer theme=get_dropdown<CR>", {})
+			vim.keymap.set("n", "<leader>ff", ":Telescope find_files theme=get_dropdown<CR>", {})
+			vim.keymap.set("n", "<leader>fw", ":Telescope live_grep theme=get_dropdown<CR>", {})
+			vim.keymap.set("n", "<leader>fb", ":Telescope buffers theme=get_dropdown<CR>", {})
+			vim.keymap.set("n", "<leader>ft", "<cmd>TodoTelescope theme=get_dropdown<CR>", {})
 		end,
 	},
 	{
