@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- remove tildas
-vim.opt.fillchars = {eob = " "}
+opt.fillchars = {eob = " "}
 
 -- line numbers
 opt.relativenumber = true
@@ -50,4 +50,7 @@ opt.incsearch = true
 opt.termguicolors = true
 
 -- max completion window size
-vim.opt.pumheight = 7
+opt.pumheight = 7
+
+-- don't show --INSERT-- (status bar already shows mode)
+opt.showmode = false
