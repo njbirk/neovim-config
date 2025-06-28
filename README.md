@@ -1,4 +1,4 @@
-
+TODO: Update README
 # My Neovim Config
 
 <!--toc:start-->
