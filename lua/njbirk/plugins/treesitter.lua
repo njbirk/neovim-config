@@ -5,10 +5,20 @@ return {
     config = function()
       local configs = require("nvim-treesitter.configs")
       configs.setup({
+        highlight = {
+          enable = true,
+        },
+
+        -- enable indentation
+        indent = { enable = true },
+
+        -- autotagging
+        autotag = {
+          enable = true,
+        },
+
         auto_install = true,
         sync_install = false,
-        highlight = { enable = true },
-        indent = { enable = true },
       })
     end,
   },

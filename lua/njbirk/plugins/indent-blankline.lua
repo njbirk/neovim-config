@@ -1,8 +1,8 @@
 return {
-	"lukas-reineke/indent-blankline.nvim",
-	config = function()
-		local indent_blankline = require("ibl")
-
-		indent_blankline.setup()
-	end,
+  "lukas-reineke/indent-blankline.nvim",
+  event = { "BufReadPre", "BufNewFile" },
+  main = "ibl",
+  opts = {
+    indent = { char = "¦" },
+  },
 }
